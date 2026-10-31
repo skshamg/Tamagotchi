@@ -1,0 +1,8 @@
+{
+  "name": "Pre-Commit Code Audit",
+  "trigger": "pre-commit",
+  "actions": [
+    "verify-whitelist-integrity",
+    "check-syntax"
+  ]
+}
